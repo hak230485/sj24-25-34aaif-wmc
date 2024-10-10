@@ -5,12 +5,11 @@ body {
     padding: 20px;
 
 }
-
 .header {
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: #461717;
+    background-color:#461717;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,6 +22,7 @@ body {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
+
 }
 
 .name {
@@ -30,7 +30,7 @@ body {
     font-size: 24px;
     /* Changed to a readable size */
     color: antiquewhite;
-    /* Corrected 'anttiquewhite' to 'antiquewhite' */
+    
 }
 
 h3 {
@@ -39,7 +39,6 @@ h3 {
     margin-top: 20;
     margin-bottom: 10px;
 }
-
 table {
     width: 12px 15px;
     border-collapse: collapse;
@@ -53,7 +52,6 @@ table td {
     padding: 12px 15px;
     border: 1px solid #ddd;
     text-align: left;
-
 }
 
 table th {
@@ -66,10 +64,15 @@ table td {
     background-color: #f9f9f9;
 }
 
+td {
+    color: #451b1b;
+}
+
 .bildungs {
     color: red;
     font-weight: bold;
     text-transform: uppercasse;
+   
 }
 
 @media(max-width:768px) {
